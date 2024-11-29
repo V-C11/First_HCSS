@@ -1,0 +1,96 @@
+
+@media (max-width:768px) {
+    nav {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        /* background-color: #1ad44f; */
+    }
+   
+    .logo{
+        font-size: 60px;
+        padding-left: 90px;
+        /* background-color: rgb(37, 20, 219); */
+        
+    }
+    .lgo img {
+        width: 90%;
+        /* background-color: red; */
+    }
+    nav ul li a{
+       display: none;
+
+    }
+    .btn{
+        display: none;   
+    }
+    .barr{
+        font-size: 50px;
+        display: inline-block;
+    }
+
+    #train {
+        display: flex;
+        justify-content: center; 
+        
+    }
+
+    .rep {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lft {
+        width: 100%;
+        height: 50%;
+        /* margin: 0 auto; */
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start;
+        /* height: 100%; */
+        gap: 40px;
+        
+    }
+    .t1 h1{
+        font-size: 70px;
+        
+    }
+    .t2 p {
+        width: 70%;
+        
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        font-size: 40px;
+    }
+    .t3 .btn1 {
+        font-size: 30px;
+    }
+    .rht {
+        width: 100%;
+    }
+    .rht video {
+        width: 100%;
+        height: 100%;
+    }
+    .learn {
+        width: 90%;
+    }
+    .easy1 {
+
+    }
+    .easy1 h1 {
+        font-size: 40px;
+    }
+    .easy1 p {
+        width: 60%;
+        font-size: 25px;
+    }
+    
+
+
+}
